@@ -79,13 +79,3 @@ languageName = ":ru:"
     name = "Обо мне"
     weight = 1
     url = "about/"
-    
-    [[languages.ru.menu.main]]
-    name = "Блог"
-    weight = 2
-    url = "posts/"
-
-    [[languages.ru.menu.main]]
-    name = "Проекты"
-    weight = 3
-    url = "projects/"
