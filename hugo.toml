@@ -1,0 +1,91 @@
+baseURL = "https://salpagarov.com"
+title = "salpagarov"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[pagination]
+pagerSize = 1000
+
+[services]
+    [services.disqus]
+    # shortname = "yourdiscussshortname"
+
+[markup]
+    [markup.highlight]
+    noClasses = false
+
+[markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+avatarURL = "images/avatar.jpg"
+dateFormat = "January 2, 2006"
+since = 2026
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+rtl = false
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+customCSS = []
+customSCSS = []
+customJS = []
+customRemoteJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/salpagarov/"
+
+[[params.social]]
+name = "Telegram"
+icon = "fa-brands fa-telegram fa-2x"
+weight = 1
+url = "https://t.me/esbea"
+
+[languages.en]
+languageName = ":uk:"
+
+    [languages.en.params]
+    author = "Sultan 'Sol' Salpagarov"
+    description = "personal website"
+    keywords = "blog,developer,personal"
+    info = ["Developer", "Architect","Security Achitect"]
+
+    [[languages.en.menu.main]]
+    name = "About"
+    weight = 1
+    url = "about/"
+
+[languages.ru]
+languageName = ":ru:"
+
+    [languages.ru.params]
+    author = "Султан 'Sol' Салпагаров"
+    description = "персональный сайт"
+    keywords = "blog,developer,personal"
+    info = ["Разработчик", "Архитектор","Архитектор систем безопасности"]
+
+    [[languages.ru.menu.main]]
+    name = "Обо мне"
+    weight = 1
+    url = "about/"
+    
+    [[languages.ru.menu.main]]
+    name = "Блог"
+    weight = 2
+    url = "posts/"
+
+    [[languages.ru.menu.main]]
+    name = "Проекты"
+    weight = 3
+    url = "projects/"
