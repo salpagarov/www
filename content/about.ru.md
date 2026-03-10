@@ -1,10 +1,13 @@
-+++
-title = "30+ лет опыта"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
-+++
+---
+title: Обо мне
+description: Краткое описание карьерного пути
+date: 2019-02-28
+aliases:
+  - "about-us"
+  - "about-hugo"
+  - "contact"
+author: Sol
+---
 
 Я начинал с работы школьным учителем информатики[^1] и преподавания в alma mater[^2]. 
 
@@ -12,11 +15,11 @@ author = "Hugo Authors"
 
 [^1]: Pascal
 
-[^2]: x86 assembler
+[^2]: Assembler
 
 [^3]: С++
 
-[^4]: Базы данных
+[^4]: Database
 
 [^5]: Clipper
 
