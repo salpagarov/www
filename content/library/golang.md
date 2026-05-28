@@ -113,7 +113,7 @@ $ GOOS=windows GOARCH=amd64 go build -o app.exe main.go
 
 Теперь построим "настоящую" первую программу.
 
-```
+```bash
 $ mkdir hello
 $ cd hello
 $ go mod init hello
@@ -121,7 +121,7 @@ $ go mod init hello
 
 Появится файл `go.mod`, который выглядит примерно так:
 
-```
+```go
 module hello
 
 go 1.24.6
@@ -133,30 +133,49 @@ go 1.24.6
 
 `demo1.go`
 
-```
+```go
 package main
 
 func main() {
-    hello()
+    hello_en()
+    hello_de()
 }
 ```
 
 `demo2.go`:
 
-```
+```go
 package main
 import "fmt"
 
-func hello() {
-    fmt.Println ("Hello, world!")
+func hello_en () {
+    fmt.Println ("Hello World!")
+}
+
+func hello_de () {
+    fmt.Println ("Hallo Welt!")
 }
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Тут сразу несколько интересных моментов:
 
 1. `hello.go` (один пакет можно разбить на несколько файлов, главное – указать общее имя в первой строке)
 
-```
+```go
 package main
 import "fmt"
 
@@ -171,14 +190,14 @@ func hello_de () {
 
 Создадим вложенный пакет `UA`
 
-```
+```bash
 $ mkdir UA
 $ cd UA
 ```
 
 `hitchhiker.go`
 
-```
+```go
 package hitchhiker
 import "fmt"
 
@@ -189,7 +208,7 @@ func Answer() {
 
 Компилируем и запускаем:
 
-```
+```bash
 $ go build
 $ ./demo
 Welcome!
