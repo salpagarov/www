@@ -1,5 +1,5 @@
 ---
-title: "cv"
+title: cv
 hide_title: true
 ---
 # Sultan Salpagarov
@@ -80,6 +80,6 @@ Proven track record in leading R&D and building scalable, secure infrastructures
 ## LANGUAGES
 
 - Russian: Native  
-- English: A2 (Elementary)
+- English: B1
 
 [Download PDF](/ssalpagarov.pdf)
