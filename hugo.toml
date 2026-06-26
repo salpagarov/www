@@ -1,5 +1,5 @@
 baseURL = "https://salpagarov.com"
-title = "SSalpagarov"
+title = "Salpagarov"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "ru"
